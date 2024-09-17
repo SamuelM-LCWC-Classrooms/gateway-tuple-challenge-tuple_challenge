@@ -4,5 +4,5 @@ def task():
     subject = str(input("Enter a subject: "))
     score = int(input("Enter a a score between out of 100: "))
 
-    grade = (name, subject, score)
+    grade = (student_name, subject, score)
     return grade
